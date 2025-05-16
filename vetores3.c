@@ -9,16 +9,9 @@ void main(){
     int dias = 7;
     float temp[3][7];
 
-    temp[0][0] = 27;
-    temp[0][0] = 30;
-    temp[0][0] = 27.6;
-    temp[0][0] = 23.5;
-    temp[0][0] = 29.3;
-    temp[0][0] = 24;
-    temp[0][0] = 21;
-
-    for (int i = 0; i < semanas; i++) {
-        for (int j = 0; j < dias; j++) {
+    for(int i = 0; i < semanas; i++){
+        for(int j = 0; j < dias; j++){
+            printf("Qual a temperatura registrada ")
             soma += matriz[i][j];
         }
     }
