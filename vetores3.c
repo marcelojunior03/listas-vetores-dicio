@@ -34,7 +34,7 @@ void main(){
     for(int i = 0; i < semanas; i++){
         for(int j = 0; j < dias; j++){
             if(temp[i][j] < media){
-                printf("%s da semana %i (%.1f°C)\n", diadasemana[i], i+1, temp[i][j]);
+                printf("%s da semana %i (%.1f°C)\n", diadasemana[j], i+1, temp[i][j]);
             }
         }
     }
